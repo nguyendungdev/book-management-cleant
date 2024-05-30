@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG NHẬP</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div class="banner">
+      <img src="img/banner.png" alt="">
+    </div>
+    <div class = "center">
+        <h1>ĐĂNG NHẬP</h1>
+        <form method="post">
+            <div class="txt_field">
+                <input id="idEmail" required>
+                <label>Email/Số điện thoại/ Tên tài khoản</label>
+            </div>
+            <div class="txt_field">
+                <input id="password" type ="password" required>
+                <label>Mật khẩu</label>
+            </div>
+            <div class="pass">Quên mật khẩu</div>
+            <input id="login-btn" type="button" value="ĐĂNG NHẬP" onclick="login()">
+            <div class="signup_link">
+                
+                Bạn chưa có tài khoản?  <a href="http://127.0.0.1:5501/signup.html"> Tạo tài khoản mới</a> 
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
